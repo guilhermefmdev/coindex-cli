@@ -18,7 +18,7 @@ const key = {
         const key = keyManager.setKey(input.key)
 
         if (key) {
-            console.log('API Key Set'.blue)
+            console.log('-- API Key Set --'.blue)
         }
     },
     remove() {
